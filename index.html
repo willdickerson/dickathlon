@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dickathlon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Welcome to Will's Dickathlon!</h2>
+            <p>You are invited to participate in the first annual Dickathlon.</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Dickathlon</h1>
+        <h1>Saturday August 10, 2024</h1>
+        <marquee behavior="scroll" direction="left">
+            7:30 AM - 33 laps around the Mueller pumptrack on skateboard | 
+            9:00 AM - 33 mile bike ride starting at Govalle neighborhood park | 
+            10:30 AM - 3.3 mile run at Lady Bird Lake | 
+            11:00 AM - 3.3 km swim at Deep Eddy | 
+            12:30 PM - Lunch at TBD | 
+            1:30 PM - Meet at Crux for 33 boulder sends | 
+            4:00 PM - Beers and food at Brewtorium | 
+            6:00 PM - Jam session at 406 W 33rd St
+        </marquee>
+        <div class="itinerary">
+            <div class="event">
+                <span class="time">7:30 AM</span>
+                <span class="description">33 laps around the Mueller pumptrack on skateboard</span>
+            </div>
+            <div class="event">
+                <span class="time">9:00 AM</span>
+                <span class="description">33 mile bike ride starting at Govalle neighborhood park</span>
+            </div>
+            <div class="event">
+                <span class="time">10:30 AM</span>
+                <span class="description AM">3.3 mile run at Lady Bird Lake</span>
+            </div>
+            <div class="event">
+                <span class="time">11:00 AM</span>
+                <span class="description">3.3 km swim at Deep Eddy</span>
+            </div>
+            <div class="event">
+                <span class="time">12:30 PM</span>
+                <span class="description">Lunch at TBD</span>
+            </div>
+            <div class="event">
+                <span class="time">1:30 PM</span>
+                <span class="description">Meet at Crux for 33 boulder sends</span>
+            </div>
+            <div class="event">
+                <span class="time">4:00 PM</span>
+                <span class="description">Beers and food at Brewtorium</span>
+            </div>
+            <div class="event">
+                <span class="time">6:00 PM</span>
+                <span class="description">Jam session at 406 W 33rd St</span>
+            </div>
+        </div>
+        <div class="links">
+            <a href="https://forms.gle/your-google-form-url" target="_blank">Click here to RSVP for one or more events</a>
+            <br><br>
+            <a href="https://forms.gle/your-google-form-url"  target="_blank">What is a Dickathlon?</a>
+        </div>
+    </div>
+
+    <script>
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
