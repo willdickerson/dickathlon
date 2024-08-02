@@ -64,14 +64,20 @@
         <div class="links">
             <a href="https://forms.gle/your-google-form-url" target="_blank">Click here to RSVP for one or more events</a>
             <br><br>
-            <a href="https://forms.gle/your-google-form-url"  target="_blank">What is a Dickathlon?</a>
+            <a href="#" onclick="startDownload(); return false;">What is a Dickathlon?</a>
         </div>
     </div>
+
+    <a id="hiddenDownload" href="https://drive.google.com/uc?export=download&id=1WwuvNPCLSk4eB5ngC-K35Hz1uKDTvWxC" download style="display: none;">Hidden Download</a>
 
     <script>
         function closePopup() {
             document.getElementById('popup').style.display = 'none';
         }
+
+        function startDownload() {
+            document.getElementById('hiddenDownload').click();
+        }   
     </script>
 </body>
 </html>
