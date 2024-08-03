@@ -31,6 +31,7 @@ body {
 .popup-content h2 {
     color: #FF00FF;
     margin-bottom: 20px;
+    text-shadow: none;
 }
 
 .popup-content p {
