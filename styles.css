@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 20px;
+    overflow-x: hidden;
 }
 
 .popup {
@@ -158,4 +159,9 @@ marquee {
     marquee {
         font-size: 1em;
     }
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
 }
