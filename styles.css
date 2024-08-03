@@ -68,7 +68,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #0000FF;
     text-shadow: 2px 2px #FF0000;
     margin-bottom: 20px;
@@ -147,6 +147,10 @@ marquee {
 
     h1 {
         font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.3em;
     }
 
     marquee {
