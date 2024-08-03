@@ -121,6 +121,9 @@ marquee {
     padding: 5px 10px;
     border-radius: 10px;
     background-color: #FFFF00;
+    display: inline-block;
+    white-space: nowrap;
+    margin-bottom: 10px;
 }
 
 .links a:hover {
