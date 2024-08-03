@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="links">
-            <a href="https://forms.gle/your-google-form-url" target="_blank">Click here to RSVP for one or more events</a>
+            <a href="javascript:void(0);" onclick="rsvpAlert()">Text me to RSVP for one or more events</a>
             <br><br>
             <a href="javascript:location.reload();">What is a Dickathlon?</a>
         </div>
@@ -64,7 +64,11 @@
     <script>
         function closePopup() {
             document.getElementById('popup').style.display = 'none';
-        }  
+        }
+
+        function rsvpAlert() {
+            alert('My phone number is 512-803-3961');
+        }
     </script>
 </body>
 </html>
